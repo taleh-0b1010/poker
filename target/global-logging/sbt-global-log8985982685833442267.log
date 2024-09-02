@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Of, Some(b55bf966-9c2a-4fb8-b1c9-1e58723f5757), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: Of[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: Of[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '/'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: Of[0m
+[0m[[0m[31merror[0m] [0m[0mOf[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

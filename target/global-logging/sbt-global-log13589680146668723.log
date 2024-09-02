@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(bae8c2d9-8f35-42ea-b7d7-ec89fe9f7c86), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /Users/taleh_gurbanzade/Documents/development/github/poker/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0morg.postgresql.util.PSQLException: ERROR: column "dealer" does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m  Position: 66[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:251)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Connection$.insertGameResult(Connection.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Repl$.main(main.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at main.main(main.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:94)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:2038)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1977)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:367)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.postgresql.util.PSQLException: ERROR: column "dealer" does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m  Position: 66[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 17 s, completed Sep 2, 2024, 10:31:02 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

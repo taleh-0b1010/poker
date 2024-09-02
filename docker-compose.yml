@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  postgresql:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=poker_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"

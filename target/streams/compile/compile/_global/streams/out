@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/taleh_gurbanzade/Documents/development/github/poker/src/main/scala/main.scala:30:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m  @[35mmain[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[33mmethod[0m [35mmain[0m cannot be a main method since it cannot be accessed statically[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

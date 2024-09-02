@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PokerGameTest, org.scalatest.tools.Framework$$anon$1@5b80ce8f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPokerGameTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Calculating hand Flush[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Calculating hand Three of a Kind[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Calculating hand Straight[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 291 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PokerGameTest[0m

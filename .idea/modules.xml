@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-pocker.iml" filepath="$PROJECT_DIR$/.idea/modules/api-pocker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-pocker-build.iml" filepath="$PROJECT_DIR$/.idea/modules/api-pocker-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poker.iml" filepath="$PROJECT_DIR$/.idea/modules/poker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poker-build.iml" filepath="$PROJECT_DIR$/.idea/modules/poker-build.iml" />
+    </modules>
+  </component>
+</project>
