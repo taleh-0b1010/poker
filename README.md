@@ -16,23 +16,17 @@ Then select `[2]main`. So the application is ready and connected to database.
 - `sbt test`
 
 ### To check DATABASE, follow these steps in a new Terminal
-List all containers:
-- `docker container ps`
+- List all containers: `docker container ps`
 
-Enter to the newly created container:
-- `docker exec -it poker_postgresql_1 psql -U postgres -d postgres`
+- Enter to the newly created container: `docker exec -it poker_postgresql_1 psql -U postgres -d postgres`
 
-Enter password:
-- `123456`
+- Enter password: `123456`
 
-List Databases:
-- `\l`
+- List Databases: `\l`
 
-Connect to our Database:
-- `\c poker_db`
+- Connect to our Database: `\c poker_db`
 
-Select from game result table:
-- `SELECT * FROM game_result;`
+- Query:`SELECT * FROM game_result;`
 
 Result:
 
